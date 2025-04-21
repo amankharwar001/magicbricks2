@@ -2,7 +2,7 @@
 import axios from 'axios'
 import * as cheerio from 'cheerio'
 
-const positionStackKey = '894f228b72282315b190cad7d7602079'
+const positionStackKey = '9c454e0d9a22f684967aff10ad5b30c9'
 
 export default async function handler(req, res) {
   const { city } = req.query
