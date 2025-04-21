@@ -84,7 +84,7 @@ export default function CityPage() {
         <div className="grid md:grid-cols-3 gap-6">
           {/* Left: Project list */}
           <div className="md:col-span-2 space-y-4">
-            {projects.map((p, i) => (
+            {projects?.map((p, i) => (
               <motion.div
                 key={i}
                 initial={{ opacity: 0, y: 10 }}
